@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Afrobook</title>
+</head>
+<body>
+    <!--Menu-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#titulo">Publique seu artigo Aqui</a></li>
+                <li><a href="#etnofilosofia">Etnofilosofia</a></li>
+                <li><a href="#candomble">Candomblé</a></li>
+                <li><a href="#umbanda">Umbanda</a></li>
+                <li><a href="#negras">Autoras Negras</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!--Menu principal -->
+    <section class="principal">
+        <div class="contprincipal">
+            <h1>Bem-vindos ao Afrobook</h1>
+
+            <p>Aqui você se sentirar proximo a sua ancestralidade!</p>
+            <p>A ideia do projeto é divulgar trabalhos de escritores negros totalmente gratutito, aqui voce poderá comprar, baixar e conhecer escritores negros, religioes de matriz africana e a filosofia africana. E temos uma area especial para aqueles que querem divulgar seu trabalho.</p>
+        </div>
+        
+        <div class="img-topo-site">
+            <img src="img/fotomenu.png" alt="eu">
+
+        </div><!---foto flutuante-->
+
+    </section>
+    <!--biblioteca-->
+    <section id="negras" class="wrapper">
+        <h2>Escritoras negras</h2>
+        <div class="carrousel">
+            <img src="img/n1.jpeg">
+            <img src="img/n2.webp">
+            <img src="img/n3.webp">
+            <img src="img/n4.jpg" >
+            <img src="img/n5.webp">
+            <img src="img/n6.jpg">
+        </div>        
+    </section>
+
+
+    <section id="umbanda" class="wrapper">
+        <h2>Umbanda</h2>
+        <div class="carrousel">
+            <img src="img/u1.jpg">
+            <img src="img/u2.jpg">
+            <img src="img/u3.jpg">
+            <img src="img/u4.jpg">
+            <img src="img/u5.jpg">
+            <img src="img/u6.jpg">
+        </div>
+    </section>
+
+
+    <section id="candomble" class="wrapper">
+        <h2>Candomblé</h2>
+        <div class="carrousel">
+            <img src="img/c1.jpg">
+            <img src="img/c2.jpg">
+            <img src="img/c3.jpg">
+            <img src="img/c4.jpg">
+            <img src="img/c5.jpg">
+            <img src="img/c6.jpg">
+        </div>
+    </section>
+
+
+    <section id="etnofilosofia" class="wrapper">
+        <h2>Etnofilosofia</h2>
+        <div class="carrousel">
+            <img src="img/et1.jpg">
+            <img src="img/et2.jpeg">
+            <img src="img/et3.jpeg">
+            <img src="img/et4.png">
+            <img src="img/et5.jpg">
+            <img src="img/et6.jpg">
+        </div>
+    </section>
+
+
+
+    <section id="titulo" class="caixaformu">
+        <h1>Publique seu artigo</h1>
+        <h2>Publique aqui seus pesquisas ou artigos que voce acha interessante e que quer divulgar para o nosso publico!</h2>
+        <p>Antes de up seu artigo preencha o formulario e certifique-se que está todos os seus dados dentro da publicação, qualquer duvida entre em contato com a nossa equipe!</p>
+
+
+        <form class="caixa">
+            <fieldset class="grupo">
+
+
+
+                <div class="formulario">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" required>
+
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required>
+
+                    <Label for="telefone">Telefone</Label>
+                    <input type="telefone" name="telefone" id="telefone" required><br>
+
+                    <label>Conte-me brevimento sobre sua Obra!</label>
+                    <textarea rows="6" style="width: 26em;" id="obra" name="obra"></textarea> <br>
+                    <button class="botao" type="submit">Enviar</button>
+
+                </div>
+
+            </fieldset>
+        </form>
+    </section>
+    
+    <!--radapé-->
+    <footer>
+        Desenvolvido por Marianne Andrade 
+     
+        <div class="social">
+            <a href="https://www.instagram.com/eu.desenvolvedora/" target="_blank" ><button><i class="bi bi-instagram"></i></button></a>
+            <a href="https://www.linkedin.com/in/marianne-andrade-ferreira92/" target="_blank" ><button><i class="bi bi-linkedin"></i></button></a>
+            <a href="https://github.com/MarianneFerreira" target="_blank"><button><i class="bi bi-github"></i></button></a>
+        </div>
+
+                        
+    </footer>
+    
+</body>
+</html>
